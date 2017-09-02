@@ -1,0 +1,111 @@
+
+html {
+    font-family: "Avenir Next";
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-family: cursive;
+}
+
+hr {
+    color: #ecf0f1;
+    background: #ecf0f1;
+}
+
+header {
+    background: #E74C3C;
+    color: white;
+    padding: 1%;
+}
+
+.jumbotron {
+    background: url('../images/hero.jpg');
+    height: 400px;
+    background-size: cover;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-position: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#skills img {
+    max-height: 150px;
+}
+
+#navigation {
+    list-style: none;
+    margin-top: 3%;
+    float: right;
+}
+
+#navigation li {
+    display: inline;
+    margin-right: 20px;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+a,
+a:hover,
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#about {
+    background: #ECF0F1;
+    padding: 1%;
+}
+
+#skills {
+    background: #3498DB;
+    padding: 1%;
+}
+
+#projects {
+    background: #F1C40F;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contact {
+    background: #1ABC9C;
+    padding: 1%;
+    text-align: center;
+}
+
+.card {
+    background-color: whitesmoke;
+    padding: 1%;
+    box-shadow: 1px 1px 1px black;
+}
+
+.fa {
+    color: black;
+}
+
+.fa-github,
+.fa-link {
+    text-align: center;
+    margin-right: 10px;
+}
+
+.social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card {
+    margin-bottom: 2%;
+}

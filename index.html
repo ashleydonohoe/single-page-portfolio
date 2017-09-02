@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ashley Donohoe's Portfolio Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <!--TODO: Add Smooth Scrolling-->
+    <div class="container-fluid">
+        <header class="row">
+            <div class="col-sm-6">
+                <span class="logo">Ashley Donohoe</span>
+                <br>
+                <span class="headline">Full Stack Web Developer</span>
+            </div>
+
+            <!--TODO: Collapsible navbar that is fixed-->
+            <div class="col-sm-6 col-xs-12">
+                <ul id="navigation">
+                    <li><a href="#about">About Me</a>
+                    </li>
+                    <li><a href="#skills">Skills</a>
+                    </li>
+                    <li><a href="#projects">Projects</a>
+                    </li>
+                    <li><a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <!--TODO: Carousel here-->
+        <section class="row">
+            <div class="jumbotron">
+                <h1 class="text-center">Specializing in HTML, CSS, React, Node, JavaScript, and jQuery</h1>
+            </div>
+        </section>
+
+        <section class="row" id="about">
+            <div class="col-md-12">
+                <h1>About Me</h1>
+                <p>I love to solve problems with code and learn new technologies to make websites that provide a good user experience and perform well. I'm not afraid of learning new frameworks, libraries, or programming languages and welcome the opportunity to grow as a developer.</p>
+            </div>
+            <div class="col-md-6">
+                <h2>Education</h2>
+                <ul>
+                    <li>Master of Business Administration</li>
+                    <li>B.S. in Interdisciplinary Studies - Computer Science and Business</li>
+                    <li>Udacity Front-End Web Developer Nanodegree</li>
+                    <li>CareerFoundry Full Stack Web Development Certificate</li>
+                    <li>Self study through online courses, videos, documentation, and books</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h2>Experience</h2>
+                <ul>
+                    <li>Nearly 7 years of experience as a freelancer in the IT world, including:</li>
+                    <ul>
+                        <li>Code reviewing</li>
+                        <li>Mentoring new front-end developers</li>
+                        <li>Full stack development projects for self and personal contacts</li>
+                        <li>Technical writing</li>
+                        <li>Data evaluation</li>
+                        <li>Computer repair</li>
+                    </ul>
+                </ul>
+
+            </div>
+        </section>
+        <section class="row" id="skills">
+            <div class="col-md-12">
+                <h1>Skills</h1>
+            </div>
+            <div class="col-sm-4">
+                <img src="images/HTML5_Logo.svg" alt="HTML5" class="img-responsive center-block">
+            </div>
+            <div class="col-sm-4">
+                <img src="images/CSS3.svg" alt="CSS3" class="img-responsive center-block">
+            </div>
+            <div class="col-sm-4">
+                <img src="images/nodejslogo.svg" alt="JavaScript" class="img-responsive center-block">
+            </div>
+            <div class="col-sm-4">
+                <img src="images/MongoDB-Logo.svg" alt="MongoDB" class="img-responsive center-block">
+            </div>
+            <div class="col-sm-4">
+                <img src="images/JQuery_logo.svg" alt="jQuery" class="img-responsive center-block">
+            </div>
+            <div class="col-sm-4">
+                <img src="images/react.svg" alt="React" class="img-responsive center-block">
+            </div>
+        </section>
+
+        <!--TODO: Add tabs to sort the projects-->
+        <section class="row" id="projects">
+            <div class="col-xs-12">
+                <h1>Projects</h1>
+            </div>
+
+            <!--TODO: Add modal to showcase additional screenshots for complex projects-->
+            <div class="col-sm-4 col-xs-6">
+                <div class="card">
+                    <img class="card-img-top img-responsive" src="images/quote-generator.jpg" alt="Quote generator app screenshot">
+                    <div class="card-block">
+                        <h4 class="card-title">Quote Generator App</h4>
+                        <p class="card-text">This website allows the user to see a random quote at a set interval or manual selection.</p>
+                        <p class="skills-list"><strong>Skills:</strong> HTML, CSS, and JavaScript</p>
+                        <p class="text-center"><a href="https://github.com/ashleydonohoe/Quote-Generator" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i> <a href="http://messenger-zebra-57000.bitballoon.com/"><i class="fa fa-link fa-3x" aria-hidden="true"></i></a></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4 col-xs-6">
+                <div class="card">
+                    <img class="card-img-top img-responsive" src="images/neighborhood-map.jpg" alt="Neighborhood map app screenshot">
+                    <div class="card-block">
+                        <h4 class="card-title">Neighborhood Map</h4>
+                        <p class="card-text">This website allows users to get information about five parks in Milford, Ohio as well as sort and search the parks.</p>
+                        <p class="skills-list"><strong>Skills:</strong> HTML, CSS, JavaScript, Knockout.JS, Google Maps API, Flickr API, AJAX</p>
+                        <p class="text-center"><a href="https://github.com/ashleydonohoe/neighborhoodmap-parks" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i> <a href="http://researcher-roger-20238.bitballoon.com/"><i class="fa fa-link fa-3x" aria-hidden="true"></i></a></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4 col-xs-6">
+                <div class="card">
+                    <img class="card-img-top img-responsive" src="images/programming.jpg" alt="Wikipedia Search app screenshot">
+                    <div class="card-block">
+                        <h4 class="card-title">Wikipedia Search App</h4>
+                        <p class="card-text">This website allows the user to enter a keyword to see relevant Wikipedia articles, or see a random article.</p>
+                        <p class="skills-list"><strong>Skills:</strong> HTML, CSS, JavaScript, AJAX, jQuery, Wikipedia API</p>
+                        <p class="text-center"><a href="https://github.com/ashleydonohoe/WikipediaSearch-FCC" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i> <a href="http://editor-ant-34240.bitballoon.com/"><i class="fa fa-link fa-3x" aria-hidden="true"></i></a></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4 col-xs-6">
+                <div class="card">
+                    <img class="card-img-top img-responsive" src="images/weather.jpg" alt="Weather app screenshot">
+                    <div class="card-block">
+                        <h4 class="card-title">What's the Weather App</h4>
+                        <p class="card-text">This website uses the user's location to display the current conditions from OpenWeatherMap.</p>
+                        <p class="skills-list"><strong>Skills:</strong> HTML, CSS, JavaScript, AJAX, jQuery, OpenWeatherMap API</p>
+                        <p class="text-center"><a href="https://github.com/ashleydonohoe/FCC-Weather" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i> <a href="http://codepen.io/ashleydonohoe/full/rrYXLP/"><i class="fa fa-link fa-3x" aria-hidden="true"></i></a></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-6">
+                <div class="card">
+                    <img class="card-img-top img-responsive" src="images/gadget-world.jpg" alt="ecommerce app screenshot">
+                    <div class="card-block">
+                        <h4 class="card-title">Ecommerce Ruby on Rails Application</h4>
+                        <p class="card-text">Created during the CareerFoundry bootcamp, this eccomerce app lets authorized users add, edit, remove, and purchase products using the Stripe API.</p>
+                        <p class="skills-list"><strong>Skills:</strong> HTML, Bootstrap, CSS, JavaScript, AJAX, jQuery, Angular, Ruby on Rails, Stripe API</p>
+                        <p class="text-center"><a href="https://github.com/ashleydonohoe/nameofapp" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i> <a href="https://gadget-mart.herokuapp.com/"><i class="fa fa-link fa-3x" aria-hidden="true"></i></a></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-6">
+                <div class="card">
+                    <img class="card-img-top img-responsive" src="images/video-playlist.jpg" alt="Video playlist app screenshot">
+                    <div class="card-block">
+                        <h4 class="card-title">Video Playlist App</h4>
+                        <p class="card-text">This page lets users view different beach videos in a single player upon clicking a title in the playlist.</p>
+                        <p class="skills-list"><strong>Skills:</strong> HTML, CSS, JavaScript, jQuery</p>
+                        <p class="text-center"><a href="https://github.com/ashleydonohoe/video-playlist" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i> <a href="#"><i class="fa fa-link fa-3x" aria-hidden="true"></i></a></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-6">
+                <div class="card">
+                    <img class="card-img-top img-responsive" src="images/frogger.jpg" alt="Frogger clone app screenshot">
+                    <div class="card-block">
+                        <h4 class="card-title">Frogger Clone Game</h4>
+                        <p class="card-text">This is a recreation of the Frogger game using HTML5 Canvas.</p>
+                        <p class="skills-list"><strong>Skills:</strong> HTML, CSS, JavaScript, jQuery</p>
+                        <p class="text-center"><a href="https://github.com/ashleydonohoe/frogger-clone" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i> <a href="http://captain-blindfolds-68334.bitballoon.com/"><i class="fa fa-link fa-3x" aria-hidden="true"></i></a></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-6">
+                <div class="card">
+                    <img class="card-img-top img-responsive" src="images/timestamp.jpg" alt="Timestamp microservice screenshot">
+                    <div class="card-block">
+                        <h4 class="card-title">Timestamp Microservice</h4>
+                        <p class="card-text">This Express microservice allows a user to type a date in Unix or natural language in the URL path to get it validated and returned in both Unix and natural language formats.</p>
+                        <p class="skills-list"><strong>Skills:</strong> Express, Node, Heroku</p>
+                        <p class="text-center"><a href="https://github.com/ashleydonohoe/fcc-timestamp_JSproject" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i> <a href="https://peaceful-meadow-87279.herokuapp.com/October%2030,%201999"><i class="fa fa-link fa-3x" aria-hidden="true"></i></a></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-6">
+                <div class="card">
+                    <img class="card-img-top img-responsive" src="images/header.jpg" alt="Request header parser microservice screenshot">
+                    <div class="card-block">
+                        <h4 class="card-title">Request Header Parser Microservice</h4>
+                        <p class="card-text">This Express microservice tells your IP address, language, and computer software info</p>
+                        <p class="skills-list"><strong>Skills:</strong> Express, Node, Heroku</p>
+                        <p class="text-center"><a href="https://github.com/ashleydonohoe/FCC-Request-Header-Parser-Microservice" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i> <a href="https://stark-wildwood-11767.herokuapp.com/api/whoami/"><i class="fa fa-link fa-3x" aria-hidden="true"></i></a></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--TODO: Add Actual Contact Info-->
+        <section class="row" id="contact">
+            <div class="col-md-12">
+                <h1>Contact Me</h1>
+            </div>
+            <div class="col-md-12 social-icons">
+                <i class="fa fa-envelope fa-5x" aria-hidden="true"></i>
+                <i class="fa fa-twitter fa-5x" aria-hidden="true"></i>
+                <i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i>
+                <i class="fa fa-github fa-5x" aria-hidden="true"></i>
+                <i class="fa fa-mobile fa-5x" aria-hidden="true"></i>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
