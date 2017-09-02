@@ -109,3 +109,20 @@ a:visited {
 .card {
     margin-bottom: 2%;
 }
+
+#skills ul {
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+h3 {
+  font-weight: 400;
+  text-decoration: underline;
+}
